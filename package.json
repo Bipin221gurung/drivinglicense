@@ -18,7 +18,8 @@
         "express-session": "^1.17.3",
         "git": "^0.1.5",
         "mongodb": "^6.3.0",
-        "mongoose": "^6.12.3"
+        "mongoose": "^6.12.3",
+        "text-encoding": "^0.7.0"
     },
     "devDependencies": {
         "nodemon": "^2.0.16"
