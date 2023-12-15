@@ -5,9 +5,10 @@
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js"
-    }  ,"engines":{
+    },
+    "engines": {
         "node": "10.15.3"
-        },
+    },
     "author": "BipinGurung",
     "license": "ISC",
     "dependencies": {
@@ -17,7 +18,7 @@
         "express-session": "^1.17.3",
         "git": "^0.1.5",
         "mongodb": "^6.3.0",
-        "mongoose": "^6.3.6"
+        "mongoose": "^6.12.3"
     },
     "devDependencies": {
         "nodemon": "^2.0.16"
