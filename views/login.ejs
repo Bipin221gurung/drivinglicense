@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('layouts/head'); -%>
+
+    <body>
+        <!-- Navigation-->
+        <%- include('layouts/navigation'); -%>
+
+            <!-- Page Header-->
+            <header class="masthead" style="background-image: url('assets/img/login-bg.jpg')">
+                <div class="container position-relative px-4 px-lg-5">
+                    <div class="page-heading">
+                        <h1>Account</h1>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <div class="container d-flex w-100">
+                <%- include('layouts/signupform'); -%>
+                    <%- include('layouts/loginform');
+      -%>
+            </div>
+
+            <!-- Footer-->
+            <%- include('layouts/footer'); -%>
+    </body>
+
+</html>
