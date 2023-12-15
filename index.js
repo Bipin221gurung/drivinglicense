@@ -13,8 +13,7 @@ const PORT = 3000;
 
 // cloud connection string
 mongoose.connect(
-  "mongodb+srv://amaxmg:12345@cluster0.ftiej9m.mongodb.net/?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
+  "mongodb+srv://amaxmg:12345@cluster0.ftiej9m.mongodb.net/?retryWrites=true&w=majority"
 );
 
 
